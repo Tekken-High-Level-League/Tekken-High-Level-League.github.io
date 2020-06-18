@@ -1,6 +1,6 @@
 self.addEventListener('install', e => e.waitUntil(
     caches
-        .open('thll-v1.01')
+        .open('thll-v1.02')
         .then(cache => cache.addAll([
             // '/',
             // '/index.html',
